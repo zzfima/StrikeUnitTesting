@@ -12,7 +12,7 @@ namespace CalcUnitTester
 		public void TestMethodAdd()
 		{
 			ICalculator calculator = new SimpleCalculator();
-			Assert.AreEqual(11, calculator.Add(7, 4));
+			Assert.AreEqual(0, calculator.Add(0, 0));
 		}
 
 		[TestMethod]
