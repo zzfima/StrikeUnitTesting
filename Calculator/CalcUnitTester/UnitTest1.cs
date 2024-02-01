@@ -1,6 +1,5 @@
 ﻿using Calculator;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
 
 namespace CalcUnitTester
 {

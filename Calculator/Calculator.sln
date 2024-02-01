@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcLogic", "CalcLogic\Calc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcUnitTester", "CalcUnitTester\CalcUnitTester.csproj", "{A36018E0-40C3-42EE-B3AD-5C2E7E37167A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcXUnit", "CalcXUnit\CalcXUnit.csproj", "{450509A0-AABC-4B64-8F73-F015B138C32C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A36018E0-40C3-42EE-B3AD-5C2E7E37167A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A36018E0-40C3-42EE-B3AD-5C2E7E37167A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A36018E0-40C3-42EE-B3AD-5C2E7E37167A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{450509A0-AABC-4B64-8F73-F015B138C32C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{450509A0-AABC-4B64-8F73-F015B138C32C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{450509A0-AABC-4B64-8F73-F015B138C32C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{450509A0-AABC-4B64-8F73-F015B138C32C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
