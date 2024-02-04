@@ -1,10 +1,17 @@
-﻿namespace Calculator
+﻿using System.Collections.Generic;
+
+namespace Calculator
 {
 	public interface ICalculator
 	{
-		double Add(double a, double b);
-		double Minus(double a, double b);
-		double Multiply(double a, double b);
-		double Divide(double a, double b);
+		void Init(int a, int b, CalculatorOperation calculatorOperation);
+
+		int Add();
+		int Minus();
+		int Multiply();
+		double Divide();
+		double Root();
+		string AddAsText();
+		IEnumerable<BusinessRule> GetRuleViolations();
 	}
 }
